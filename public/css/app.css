@@ -1,0 +1,25 @@
+footer {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.my_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+}
+
+.song_name {
+  color: #b4b4b4;
+}
+
+.my_wrap_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+    position: relative;
+}
+
