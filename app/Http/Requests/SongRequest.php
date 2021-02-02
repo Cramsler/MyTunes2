@@ -24,7 +24,11 @@ class SongRequest extends FormRequest
     public function rules()
     {
         return [
-            'artist' => 'required',
+          'artist' => 'required',
+          'name'   => 'required',
+          'image'  => 'image',
+          'song'   => 'required',
         ];
+
     }
 }
