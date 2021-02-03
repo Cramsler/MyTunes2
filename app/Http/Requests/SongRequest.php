@@ -26,8 +26,9 @@ class SongRequest extends FormRequest
         return [
           'artist' => 'required',
           'name'   => 'required',
-          'image'  => 'image',
-          'song'   => 'required',
+          'text'   => 'required|min:50|max:5000',
+          'image'  => 'image|required',
+          'song'   => 'required|file|mimes:mp3,aac,wav ',
         ];
 
     }

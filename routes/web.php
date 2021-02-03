@@ -24,3 +24,9 @@ Route::get('/reports', function () {
 })->name('reports');
 
 Route::post('/add/submit', 'SongController@send')->name('send');
+
+Route::get('/more/{id}', 'SongController@more')->name('more');
+
+Route::get('/change/{id}', 'SongController@change')->name('change');
+
+Route::post('/changeSubmit/{id}', 'SongController@changeSubmit')->name('changeSubmit');

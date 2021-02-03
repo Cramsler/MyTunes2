@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>MyTunes 2.0</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/app.css">
 </head>
@@ -16,7 +16,6 @@
     <nav class="my-2 my-md-0 me-md-3">
         <a class="p-2 text-dark" href="{{ route('home') }}">Главная</a>
         <a class="p-2 text-dark" href="{{route('add')}}">Добавить</a>
-        <a class="p-2 text-dark" href="{{route('reports')}}">Отзывы</a>
     </nav>
 </header>
 
@@ -72,6 +71,6 @@
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="/public/js/app.js"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

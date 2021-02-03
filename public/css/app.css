@@ -8,7 +8,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 250px;
+  width: 300px;
 }
 
 .song_name {
@@ -20,6 +20,35 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-    position: relative;
+}
+
+.audio-player {
+  width: 250px;
+}
+
+.more {
+  width: 20px;
+  position: relative;
+  left: 100px;
+}
+
+.audio-player_more {
+  width: 500px;
+}
+
+.image {
+  box-shadow: 10px 10px 10px #636b6f;
+}
+
+.paginate {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row_my {
+  padding-left: 40px;
 }
 

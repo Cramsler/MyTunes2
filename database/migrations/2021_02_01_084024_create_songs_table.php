@@ -17,6 +17,7 @@ class CreateSongsTable extends Migration
             $table->id('id');
             $table->string('artist');
             $table->string('name');
+            $table->text('text');
             $table->string('song_file');
             $table->string('image');
             $table->timestamps();
